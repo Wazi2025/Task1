@@ -8,24 +8,31 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Instruktor\\.nuget\\packages\\": {}
+    "C:\\Users\\Bilbo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Instruktor\\desktop\\csharp\\Task1\\Task1.csproj",
+      "projectUniqueName": "D:\\VSCode\\CSharp\\Task1\\Task1.csproj",
       "projectName": "Task1",
-      "projectPath": "C:\\Users\\Instruktor\\desktop\\csharp\\Task1\\Task1.csproj",
-      "packagesPath": "C:\\Users\\Instruktor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Instruktor\\desktop\\csharp\\Task1\\obj\\",
+      "projectPath": "D:\\VSCode\\CSharp\\Task1\\Task1.csproj",
+      "packagesPath": "C:\\Users\\Bilbo\\.nuget\\packages\\",
+      "outputPath": "D:\\VSCode\\CSharp\\Task1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Instruktor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Bilbo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
