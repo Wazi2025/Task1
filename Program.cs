@@ -12,10 +12,13 @@ class Program
         const string exit = "exit";
         const string message = "Your passwordlength is";
         const string typeInPW = "Please type in your password (or 'exit' to quit): ";
+        const string minPWLength = "Minimum passwordlength is 1.";
 
         do
         {
             Console.WriteLine(typeInPW);
+
+            //read userpassword
             value = Console.ReadLine();
 
             //Check for empty/null value 
@@ -44,8 +47,9 @@ class Program
             }
             else
             {
-                //Inform user if value is empty/null
-                Console.WriteLine($"Minimum passwordlength is 1.");
+                //Inform user if value is empty/null 
+                //Continue loop
+                Console.WriteLine(minPWLength);
                 continue;
             }
         } while (true);
