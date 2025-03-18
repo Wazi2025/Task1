@@ -6,15 +6,14 @@ class Program
     {
         string? value = "";
 
-        //these two variables can be constants since they will never change
+        //these variables can be constants since they will never change
         const string exit = "exit";
         const string message = "Your passwordlength is";
+        const string typeInPW = "\nPlease type in your password (or 'exit' to quit): ";
 
-        // do
-        // {
         while (value.ToLower() != exit)
         {
-            Console.WriteLine("\nPlease type in your password (or 'exit' to quit): ");
+            Console.WriteLine(typeInPW);
             value = Console.ReadLine();
 
             //check for empty pw
@@ -36,6 +35,7 @@ class Program
                         break;
                 }
             }
+
         }
     }
 }
