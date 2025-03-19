@@ -11,6 +11,7 @@ class Program
         //These variables can be constants since they will never change
         const string exit = "exit";
         const string message = "Your passwordlength is";
+        const string characters = "characters";
         const string typeInPW = "Please type in your password (or 'exit' to quit): ";
         const string minPWLength = "Minimum passwordlength is 1.";
 
@@ -33,15 +34,17 @@ class Program
                 switch (value.Length)
                 {
                     case > 15:
-                        Console.WriteLine($"{message} {value.Length}. Brilliant!");
+                        Console.WriteLine($"{message} {value.Length} {characters}. Brilliant!");
                         break;
 
                     case >= 10:
-                        Console.WriteLine($"{message} {value.Length}. A decent size.");
+                        Console.WriteLine($"{message} {value.Length} {characters}. A decent size.");
                         break;
-
+                    case <= 1:
+                        Console.WriteLine($"{message} {value.Length} {characters.Remove(9)}. Extremely short and therefore highly unsafe.");
+                        break;
                     case < 9:
-                        Console.WriteLine($"{message} {value.Length}. A bit short.");
+                        Console.WriteLine($"{message} {value.Length} {characters}. A bit short.");
                         break;
                 }
             }
