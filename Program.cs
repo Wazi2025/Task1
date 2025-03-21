@@ -43,7 +43,7 @@ class Program
                     case <= 1:
                         Console.WriteLine($"{message} {value.Length} {characters.Remove(9)}. Extremely short and therefore highly unsafe.");
                         break;
-                    case < 9:
+                    case <= 9:
                         Console.WriteLine($"{message} {value.Length} {characters}. A bit short.");
                         break;
                 }
