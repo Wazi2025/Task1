@@ -2,6 +2,8 @@
 ![language](https://img.shields.io/badge/language-C%23-blue)
 ![TNode Approved](https://img.shields.io/badge/TNode-Approved-black)
 
+![Blue Verb Slayer](https://img.shields.io/badge/Skill-Blue_Verb_Slayer-9C27B0)
+
 # Project "Task1"
 
 Checks the length of a user-defined password and gives appropriate feedback based on the length.
