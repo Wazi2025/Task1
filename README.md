@@ -4,5 +4,5 @@ Checks the length of a user-defined password and gives appropriate feedback base
 
 #### This was my first real project in C# and is only here for two reasons:
 
-- To remind myself of my humble beginnings<br>
-- To remind me of where I am today whenever I meet my dreaded <b>Blue Verb<sup>2</sup></b>
+To honor where I started on my coding journey—humble, curious, and full of compile errors.<br>
+To remind myself how far I've come each time I cross paths with the dreaded Blue Verb².
